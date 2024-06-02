@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://65e3204a-567d-4955-8d21-3982136f7566-00-2sbvy8p8mbgia.spock.replit.dev/v1/tasks';
-  const trelloApiRoot = 'https://api.trello.com/1/v1/trello';
+  const trelloApiRoot = 'https://api.trello.com/1';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
